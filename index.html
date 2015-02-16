@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>С днем рождения!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="../" class="navbar-brand">&nbsp;</a>
+                </div>
+                <nav class="collapse navbar-collapse bs-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">&nbsp;</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <div class="col-md-12" style="padding-bottom: 30px;">
+                <h2>Дорогая Мария!</h2>
+                <h3>В этот праздничный день...</h3>
+                <p>
+                    Хотел подарить тебе что-нибудь душевное, сделанное своими руками. Но так ничего и не придумал.
+                    <br/>
+                    И поэтому вот тебе <i><b>сайт</b></i>. о_О
+                </p>
+                <p>Держи.</p>
+
+                <br/>
+
+                <p>Можешь писать здесь:</p>
+                <textarea name="" id="" cols="50" rows="2"></textarea>
+                <p>все что захочешь. И здесь тоже:</p>
+                <textarea name="" id="" cols="50" rows="2"></textarea>
+                <p>Теперь он твой.</p>
+
+                <br/>
+
+                <p>и да, <i>Счастья-Здоровья</i> тебе!<br/></p>
+                <p class="lead">и С ДНЕМ РОЖДЕНИЯ!</p>
+
+                <br/>
+
+                <p><small>П.С. Самый бесполезный подарок. Но зато от души!<i>=)</i></small></p>
+
+                <br/>
+
+                <small class="text-right"><a class="js-show-button1" href="javascript:void(0);">Нажми меня</a></small>
+                <!--<blockquote class="blockquote-reverse">-->
+                    <!--<p>И раз уж я полночи потратил на такую фигню,</p>-->
+                    <!--<p>ты можешь отблагодаришь меня за старания</p>-->
+                    <!--<p>и прямо сейчас</p>-->
+                    <!--<p>улыбнуться?</p>-->
+                    <!--<footer>=)</footer>-->
+                <!--</blockquote>-->
+                <p class="text-right js-show-block1" style="display: none;">
+                    <span>И раз уж я полночи потратил на такую фигню,</span><br/>
+                    <span>может быть, ты оценишь мои старания</span><br/>
+                    <span>и прямо сейчас</span><br/>
+                    <span>улыбнешься?</span><br/>
+                    <span><i>=)</i></span><br/>
+                    <br/>
+                    <small class="text-right"><a class="js-show-button2" href="javascript:void(0);">Нажми меня</a></small>
+                </p>
+
+                <br/>
+                <br/>
+
+                <p class="text-center js-show-block2" style="display: none;">
+                    <span>Ну ладно, улыбка засчитывается ;)</span><br/>
+                    <br/>
+                    <span><b>С ДНЕМ РОЖДЕНИЯ!</b></span><br/>
+                </p>
+            </div>
+        </div>
+    </body>
+    <script>
+        $(function() {
+            $('.js-show-button1').on('click', function() {
+                $('.js-show-block1').show(600);
+            });
+            $('.js-show-button2').on('click', function() {
+                $('.js-show-block2').show(300);
+            });
+        });
+    </script>
+</html>
